@@ -10,7 +10,7 @@
     <meta name="description" content="{% block description %}{{ SITE_DESCRIPTION }}{% endblock %}">
 
     {% block style %}
-    <link rel="stylesheet" href="/theme/css/main.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css">
     {% endblock %}
   </head>
 
@@ -22,14 +22,14 @@
       <div class="row">
         <p>PythonBrasil is a non-proﬁt volunteer-driven conference for promoting the open-source Python programming language. It is supported by the Brazilian Python Association (APyB) and by the Python Software Foundation (PSF).</p>
 
-        <img src="/theme/images/logo-gray.svg" alt="Python Brasil - Logo">
+        <img src="{{ SITEURL }}/theme/images/logo-gray.svg" alt="Python Brasil - Logo">
       </div>
     </footer>
   </div>
 
   {% block javascript %}
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="/theme/js/main.js"></script>
+  <script src="{{ SITEURL }}/theme/js/main.js"></script>
   {% endblock %}
   </body>
 </html>
