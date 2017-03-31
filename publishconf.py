@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'pythonbrasil.org.br;2017.pythonbrasil.org.br'
+SITEURL = 'http://2017.pythonbrasil.org.br'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
