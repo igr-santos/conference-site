@@ -2,15 +2,25 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Igor Santos'
-SITENAME = u'Python Brasil'
+AUTHOR = u'PythonBrasil'
+SITENAME = u'Python Brasil 13'
 SITEURL = ''
+SITE_DESCRIPTION = "13ª Conferência Brasileira da Comunidade Python. Seis " +\
+    "dias de palestras, tutoriais e sprints sobre a linguagem Python."
 
 PATH = 'content'
 
 TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = u'pt'
+
+STATIC_PATHS = ['images', 'extra/CNAME']
+
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {
+        'path': 'CNAME'
+    },
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -32,4 +42,6 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+
+THEME = 'theme'

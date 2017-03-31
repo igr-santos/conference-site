@@ -53,6 +53,9 @@ coverage.xml
 *.log
 local_settings.py
 
+# Pelican stuff:
+output/
+
 # Flask stuff:
 instance/
 .webassets-cache
